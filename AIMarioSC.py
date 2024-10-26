@@ -68,7 +68,7 @@ def _fill(chat_id, username):
 def start_command(update: Update, context: CallbackContext) -> None:
     chat_id = update.message.chat_id
     _fill(chat_id, update.message.from_user.username)
-    update.message.reply_text('Selamat Datang. Aku dalah AI Mario, ada yang bisa Aku bantu kali ini? | gunakan /chat untuk memulai sesi chat! | Gunakan sebijaknya API nya Bayar hiks hiks') 
+    update.message.reply_text('Selamat Datang. Aku dalah AI BOT, ada yang bisa Aku bantu kali ini? | gunakan /chat untuk memulai sesi chat!') 
 
 # Command /img
 def img(update: Update, context: CallbackContext) -> None:
