@@ -7,14 +7,22 @@ Bot ini adalah implementasi sederhana dari bot Telegram yang menggunakan OpenAI 
 - Chat dengan AI menggunakan OpenAI GPT-3.5.
 - Menghasilkan gambar berdasarkan deskripsi yang diberikan oleh pengguna.
 
-## Prasyarat
+## Tutorial
 
-Pastikan Anda telah menginstal pustaka berikut:
+`git clone https://github.com/marioardi97/OpenAI-telegram.git`
+
+`cd OpenAI-telegram`
+
+Library berikut:
 
 - `python-telegram-bot`
 - `openai`
 
-Instal pustaka tersebut dengan menjalankan:
+Instal Library-nya tersebut dengan menjalankan:
 
 ```bash
-pip install python-telegram-bot openai
+`pip install python-telegram-bot openai`
+
+
+
+
